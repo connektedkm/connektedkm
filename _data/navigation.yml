@@ -5,6 +5,6 @@ main:
    - title: "Technical Writing Examples"
      url: /technical-writing/
    - title: "Online Courses"
-     url: /url/
+     url: /online-courses/
    - title: "Sitemap"
-     url: /sitemap/
+     url: /_pages/sitemap/
