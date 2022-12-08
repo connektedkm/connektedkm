@@ -1,6 +1,6 @@
 ---
 title:  "Technical Writing"
-layout: archive
+layout: collection
 permalink: /technical-writing/
 author_profile: true
 comments: true
