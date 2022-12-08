@@ -1,12 +1,10 @@
 # main links
 main:
-  - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-   - title: "Technical Writing Portfolio"
+   - title: "About"
      url: https://mmistakes.github.io/minimal-mistakes/about/
-   - title: "Online Courses"
+   - title: "Technical Writing Examples"
      url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+   - title: "Online Courses"
+     url: /collection-archive/
   # - title: "Sitemap"
-  #   url: /sitemap/
+   #  url: /sitemap/
