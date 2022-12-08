@@ -3,7 +3,7 @@ main:
    - title: "About"
      url: /about/
    - title: "Technical Writing Examples"
-     url: /technical-writing/
+     permalink: /technical-writing/
    - title: "Online Courses"
      url: /online-courses/
    - title: "Sitemap"
