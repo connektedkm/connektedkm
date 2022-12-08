@@ -1,7 +1,7 @@
 ---
 title:  "Technical Writing"
 layout: archive
-url: /technical-writing/
+permalink: /technical-writing/
 author_profile: true
 comments: true
 ---
