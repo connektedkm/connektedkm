@@ -1,3 +1,12 @@
+---
+title: "CloudFormation"
+permalink: /docs/AWS_CloudFormation/
+excerpt: "Instructions for installing the theme for new and existing Jekyll based sites."
+last_modified_at: 2019-08-20T21:36:18-04:00
+toc: true
+---
+
+
 ## **Writing Example 1 - How to create an AWS VPC with DNS enabled using CloudFormation**
 
 The following instructions detail how to create an AWS VPC with DNS enabled using a CloudFormation template. 
