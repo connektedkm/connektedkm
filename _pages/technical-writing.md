@@ -6,8 +6,6 @@ author_profile: true
 comments: true
 ---
 
-A selection of writing examples covering both technological concepts and procedural steps to showcase a range of experiences.
-
 ## Network Address Translation explained
 
 - [Writing Example One]({{ "/docs/NAT" | relative_url }}).
