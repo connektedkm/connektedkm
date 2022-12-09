@@ -6,7 +6,7 @@ last_modified_at: 2019-08-20T21:36:18-04:00
 toc: true
 ---
 
-## **Writing Example 2 - Network Address Translation**
+## **Network Address Translation**
 
 
 ### **What it is**

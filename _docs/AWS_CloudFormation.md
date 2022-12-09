@@ -7,7 +7,7 @@ toc: true
 ---
 
 
-## **Writing Example 1 - How to create an AWS VPC with DNS enabled using CloudFormation**
+## **How to create an AWS VPC with DNS enabled using CloudFormation**
 
 The following instructions detail how to create an AWS VPC with DNS enabled using a CloudFormation template. 
 
