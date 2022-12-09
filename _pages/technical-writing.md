@@ -6,16 +6,16 @@ author_profile: true
 comments: true
 ---
 
-Welcome to my technical writing portfolio! Below are a selection of writing examples which cover some of the topics and technologies I am experienced in working with. 
+A selection of writing examples covering both technological concepts and procedural steps to showcase a range of experiences.
 
-## Writing Example 1 - Network Address Translation explained
+## Network Address Translation explained
 
 - [*Quick-Start Guide*]({{ "/docs/NAT" | relative_url }}).
 
-## Writing Example 2 - How to create an AWS VPC with DNS enabled using CloudFormation
+## How to create an AWS VPC with DNS enabled using CloudFormation
 
 - [*Quick-Start Guide*]({{ "/docs/AWS_CloudFormation/" | relative_url }}).
 
-## Writing Example 3 - Use Python to export data from a MySQL database using a Pandas Dataframe
+## Use Python to export data from a MySQL database using a Pandas Dataframe
 
 - [*Quick-Start Guide*]({{ "/docs/Python_export/" | relative_url }}).
