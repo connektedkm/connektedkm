@@ -10,17 +10,17 @@ search: false
 @import "minimal-mistakes";
 
 html {
-  font-size: 8px; // change to whatever
+  font-size: 10px; // change to whatever
 
   @include breakpoint($medium) {
-    font-size: 12px; // change to whatever
+    font-size: 10px; // change to whatever
   }
 
   @include breakpoint($large) {
-    font-size: 20px; // change to whatever
+    font-size: 10px; // change to whatever
   }
 
   @include breakpoint($x-large) {
-    font-size: 36px; // change to whatever
+    font-size: 10px; // change to whatever
   }
 }
