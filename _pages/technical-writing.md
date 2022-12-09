@@ -6,5 +6,5 @@ author_profile: true
 comments: true
 ---
 
-- Optional [header images](https://connektedkm.github.io/connektedkm/docs/AWS_Cloudformation)
+- [*Quick-Start Guide*]({{ "/docs/AWS_CloudFormation/" | relative_url }}).
 
