@@ -16,8 +16,6 @@ The following instructions detail how to create an AWS VPC with DNS enabled usin
 
 You must have:
 
-
-
 * An AWS account
 * Access to a text editor such as Sublime Text or Notepad++
 
@@ -102,7 +100,7 @@ Whichever format is chosen, the code used in both examples will create a VPC wit
 
 If required, modify these values in your text editor to suit your environment. 
 
-**Note: **The Logical ID and CIDR block **cannot** be changed once the VPC has been created.
+**Note:** The Logical ID and CIDR block **cannot** be changed once the VPC has been created.
 {: .notice--warning}
 
 Save the file once your template is configured correctly.
@@ -118,7 +116,7 @@ Follow these steps to create the VPC from your CloudFormation template:
 
 1. Sign in to your AWS account using the web console via [aws.amazon.com](aws.amazon.com) 
 2. Ensure you are in the correct AWS Region using the navigation bar. Your VPC will be created in this Region.
-3. Open the **CloudFormation_ _**service page.
+3. Open the **CloudFormation**service page.
 4. Select **Create stack.**
 5. Select **Upload a template file** from the **Specify template** menu. 
 6. Select **Choose file** and upload your template file.
@@ -126,14 +124,14 @@ Follow these steps to create the VPC from your CloudFormation template:
 8. Accept the default stack options.
 9. Review the stack details and select **Submit.**
 
-CloudFormation will now direct you to the **Events_ _**tab, a log of the steps taken by AWS to create the defined resources which includes a timestamp and status: 
+CloudFormation will now direct you to the **Events**tab, a log of the steps taken by AWS to create the defined resources which includes a timestamp and status: 
 
 
 
-* A status of _CREATE_IN_PROGRESS_ will be displayed during the creation of the VPC.
-* A status of _CREATE_COMPLETE_ will be displayed to confirm the successful creation of the VPC.
+* A status of `CREATE_IN_PROGRESS` will be displayed during the creation of the VPC.
+* A status of `CREATE_COMPLETE` will be displayed to confirm the successful creation of the VPC.
 
-The **Events** page automatically refreshes every minute. Click the **Resources** tab once the stack reaches a _CREATE_COMPLETE _status. 
+The **Events** page automatically refreshes every minute. Click the **Resources** tab once the stack reaches a `CREATE_COMPLETE`status. 
 The **Physical ID** displayed here is a unique identifier assigned to the VPC by AWS. This takes the form of `**vpc-**` followed by a unique 17 character string, for example,  `**vpc-0bf8c011c81218c2d**`.
 
 Click the Physical ID to access the newly created VPC. 
