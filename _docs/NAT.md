@@ -44,13 +44,8 @@ The configuration is as follows:
 * All three devices have been assigned a private IPv4 address by the router
 * The router has a public IP address of 85.241.20.11
 
-Each device is attempting to access [https://www.google.com](https://www.google.com) from the local network. 
-
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
+**Note:** Each device is attempting to access [https://www.google.com](https://www.google.com) from the local network. 
+{: .notice--warning}
 <figure>
   <img src="{{ '/assets/images/NAT_Diagram.png' | relative_url }}" alt="NAT diagram">
 </figure>
