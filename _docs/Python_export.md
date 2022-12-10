@@ -24,54 +24,48 @@ Access to a MySQL database
 
 Follow the steps outlined in Python’s official release notes to download and install the latest release for your operating system:
 
-**Mac **- [https://www.python.org/downloads/macos/](https://www.python.org/downloads/macos/) 
-**Windows **- [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/) 
-**Linux** - [https://www.python.org/downloads/source/](https://www.python.org/downloads/source/) 
+**Mac**- [https://www.python.org/downloads/macos/](https://www.python.org/downloads/macos/) 
+**Windows**- [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/) 
+**Linux**- [https://www.python.org/downloads/source/](https://www.python.org/downloads/source/) 
 
-**Other** - [https://www.python.org/download/other/](https://www.python.org/download/other/) 
+**Other**- [https://www.python.org/download/other/](https://www.python.org/download/other/) 
 
 **Note:** If you already have Python installed, ensure you are running version 3.7 or later at a minimum. At the time of writing the latest version of Python was 3.11.0.
-
+{: .notice--warning}
 
 ### **Installing pip**
-
- 
 
 pip is installed with the official version of Python. If you require a standalone installation, follow the instructions outlined in the official documentation that can be found here: [https://pip.pypa.io/en/stable/installation/](https://pip.pypa.io/en/stable/installation/) 
 
 Check which version of pip is installed by running the command:
 
 
-```
+```bash
 pip --version 
 ```
 
+**Note:**At the time of writing the latest version of pip was 22.3.1.
+{: .notice--warning}
 
-**Note: **At the time of writing the latest version of pip was 22.3.1.
-### **Dependencies** \
-
+### **Dependencies** 
 
 The following libraries will need to be installed in order to complete the task:
 
+* **Pandas**- a popular Python library used to analyse data
+* **MySQLConnector**- a self-contained Python driver used to communicate with MySQL databases
 
+Use pip to install both libraries by running these two commands: 
 
-* **Pandas** - a popular Python library used to analyse data
-* **MySQLConnector **- a self-contained Python driver used to communicate with MySQL databases
-Use pip to install both libraries by running these two commands: \
- \
-```
+```bash
 pip install pandas
 
 pip install mysql.connector
 ```
 
+### Running the script
 
-
-###  \
-**Running the script \
- \
-**The Python script below will complete the following steps:
-1. Connect to a local MySQL database named **Users, **authenticating with a defined username and password.
+The Python script below will complete the following steps:
+1. Connect to a local MySQL database named **Users**, authenticating with a defined username and password.
 2. Run a query to access all records from the **userdetails** table located in the **Users** database once a connection has been established. 
 3. Create a Pandas DataFrame from the query results in step 2.
 4. Print an error if there are any issues connecting to the database.
@@ -139,12 +133,7 @@ The following variables are defined in the script and should be modified to suit
   </tr>
 </table>
 
-
- \
-
-
-
-```
+```python
 import mysql.connector as connector 
 import pandas as pd 
 try: 

@@ -1,8 +1,7 @@
 ---
 title: "CloudFormation"
 permalink: /docs/AWS_CloudFormation/
-excerpt: "Instructions for installing the theme for new and existing Jekyll based sites."
-last_modified_at: 2019-08-20T21:36:18-04:00
+excerpt: "Instructions for creating an AWS VPC with DNS enabled using CloudFormation."
 toc: true
 ---
 
@@ -11,14 +10,12 @@ toc: true
 
 The following instructions detail how to create an AWS VPC with DNS enabled using a CloudFormation template. 
 
-
 ### **Before you begin**
 
 You must have:
 
 * An AWS account
 * Access to a text editor such as Sublime Text or Notepad++
-
 
 ### **Create a CloudFormation template**
 
@@ -32,7 +29,7 @@ Choose your preferred format from the two, and paste one of the code snippets be
 ```json
 {
    "AWSTemplateFormatVersion": "2010-09-09",
-   "Description": "AWS CloudFormation VPC Template: Template to create VPC with DNS enabled.",
+   "Description": "AWS CloudFormation VPC Template",
    "Resources": {
       "MyCompanyVPC": {
          "Type": "AWS::EC2::VPC",
@@ -53,7 +50,7 @@ Choose your preferred format from the two, and paste one of the code snippets be
 
 ```yaml
 AWSTemplateFormatVersion: '2010-09-09'
-Description: 'AWS CloudFormation VPC Template: Template to create VPC with DNS enabled.'
+Description: 'AWS CloudFormation VPC Template'
 Resources:
   MyCompanyVPC:
     Type: AWS::EC2::VPC
@@ -116,7 +113,7 @@ Follow these steps to create the VPC from your CloudFormation template:
 
 1. Sign in to your AWS account using the web console via [aws.amazon.com](aws.amazon.com) 
 2. Ensure you are in the correct AWS Region using the navigation bar. Your VPC will be created in this Region.
-3. Open the **CloudFormation**service page.
+3. Open the **CloudFormation** service page.
 4. Select **Create stack.**
 5. Select **Upload a template file** from the **Specify template** menu. 
 6. Select **Choose file** and upload your template file.
@@ -124,7 +121,7 @@ Follow these steps to create the VPC from your CloudFormation template:
 8. Accept the default stack options.
 9. Review the stack details and select **Submit.**
 
-CloudFormation will now direct you to the **Events**tab, a log of the steps taken by AWS to create the defined resources which includes a timestamp and status: 
+CloudFormation will now direct you to the **Events** tab, a log of the steps taken by AWS to create the defined resources which includes a timestamp and status: 
 
 
 
@@ -132,7 +129,8 @@ CloudFormation will now direct you to the **Events**tab, a log of the steps take
 * A status of `CREATE_COMPLETE` will be displayed to confirm the successful creation of the VPC.
 
 The **Events** page automatically refreshes every minute. Click the **Resources** tab once the stack reaches a `CREATE_COMPLETE`status. 
-The **Physical ID** displayed here is a unique identifier assigned to the VPC by AWS. This takes the form of `**vpc-**` followed by a unique 17 character string, for example,  `**vpc-0bf8c011c81218c2d**`.
+
+The **Physical ID** displayed here is a unique identifier assigned to the VPC by AWS. This takes the form of **`vpc-`** followed by a unique 17 character string, for example,  **`vpc-0bf8c011c81218c2d`**.
 
 Click the Physical ID to access the newly created VPC. 
 
