@@ -31,7 +31,7 @@ Choose your preferred format from the two, and paste one of the code snippets be
 **JSON**
 
 
-```
+```json
 {
    "AWSTemplateFormatVersion": "2010-09-09",
    "Description": "AWS CloudFormation VPC Template: Template to create VPC with DNS enabled.",
@@ -53,7 +53,7 @@ Choose your preferred format from the two, and paste one of the code snippets be
 **YAML**
 
 
-```
+```yaml
 AWSTemplateFormatVersion: '2010-09-09'
 Description: 'AWS CloudFormation VPC Template: Template to create VPC with DNS enabled.'
 Resources:
@@ -103,6 +103,7 @@ Whichever format is chosen, the code used in both examples will create a VPC wit
 If required, modify these values in your text editor to suit your environment. 
 
 **Note: **The Logical ID and CIDR block **cannot** be changed once the VPC has been created.
+{: .notice--warning}
 
 Save the file once your template is configured correctly.
 
@@ -133,8 +134,7 @@ CloudFormation will now direct you to the **Events_ _**tab, a log of the steps t
 * A status of _CREATE_COMPLETE_ will be displayed to confirm the successful creation of the VPC.
 
 The **Events** page automatically refreshes every minute. Click the **Resources** tab once the stack reaches a _CREATE_COMPLETE _status. 
-
-The** Physical ID** displayed here is a unique identifier assigned to the VPC by AWS. This takes the form of **vpc-** followed by a unique 17 character string, for example,  [vpc-0bf8c011c81218c2d](https://eu-west-2.console.aws.amazon.com/vpc/home?region=eu-west-2#VpcDetails:VpcId=vpc-0bf8c011c81218c2d).
+The **Physical ID** displayed here is a unique identifier assigned to the VPC by AWS. This takes the form of `**vpc-**` followed by a unique 17 character string, for example,  `**vpc-0bf8c011c81218c2d**`.
 
 Click the Physical ID to access the newly created VPC. 
 
