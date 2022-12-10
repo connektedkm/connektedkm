@@ -10,7 +10,6 @@ toc: true
 
 This guide provides instructions on how to use Python to connect to a MySQL database, convert a set of database table entries to a Pandas DataFrame and finally, export the results to a CSV file.
 
-
 ### **Prerequisites**
 
 Python 3 - the latest version of Python
@@ -19,13 +18,14 @@ _pip_ - a package installer for Python
 
 Access to a MySQL database
 
-
 ### **Installing Python**
 
 Follow the steps outlined in Python’s official release notes to download and install the latest release for your operating system:
 
 **Mac**- [https://www.python.org/downloads/macos/](https://www.python.org/downloads/macos/) 
+
 **Windows**- [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/) 
+
 **Linux**- [https://www.python.org/downloads/source/](https://www.python.org/downloads/source/) 
 
 **Other**- [https://www.python.org/download/other/](https://www.python.org/download/other/) 
@@ -44,7 +44,7 @@ Check which version of pip is installed by running the command:
 pip --version 
 ```
 
-**Note:**At the time of writing the latest version of pip was 22.3.1.
+**Note:** At the time of writing the latest version of pip was 22.3.1.
 {: .notice--warning}
 
 ### **Dependencies** 
@@ -132,6 +132,7 @@ The following variables are defined in the script and should be modified to suit
    </td>
   </tr>
 </table>
+
 
 ```python
 import mysql.connector as connector 
