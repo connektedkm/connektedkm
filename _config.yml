@@ -118,7 +118,7 @@ author:
       # url: "https://your-website.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
-      url: "https://linkedin.com/kevinmoran87"{:target="_blank"}
+      url: "https://linkedin.com/kevinmoran87"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
