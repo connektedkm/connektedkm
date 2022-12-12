@@ -14,7 +14,7 @@ comments: true
 - Build and create a set of AWS resources - EC2, RDS, Load Balancer
 - Monitor your resources in AWS
 
-[Course Link](https://openclassrooms.com/en/courses/7418381-deploy-your-systems-and-networks-in-the-cloud-with-aws)
+[Course Link](https://openclassrooms.com/en/courses/7418381-deploy-your-systems-and-networks-in-the-cloud-with-aws){:target="_blank"}
 
 ## Set Up TCP/IP Networks
 
@@ -24,7 +24,7 @@ comments: true
 - Configure routing and a default gateway
 - Add DNS and DHCP to your network
 
-[Course Link](https://openclassrooms.com/en/courses/7414131-set-up-tcp-ip-networks)
+[Course Link](https://openclassrooms.com/en/courses/7414131-set-up-tcp-ip-networks){:target="_blank"}
 
 ## Docker Containers
 
@@ -34,7 +34,7 @@ comments: true
 - Create, run, and share Docker images
 - Manage Docker images using Docker Compose
 
-[Course Link](https://openclassrooms.com/en/courses/7905646-optimize-your-deployment-with-docker-containers)
+[Course Link](https://openclassrooms.com/en/courses/7905646-optimize-your-deployment-with-docker-containers){:target="_blank"}
 
 ## Powershell
 
@@ -44,7 +44,7 @@ comments: true
 - Manage your files using Powershell
 - Automate backups using Powershell
 
-[Course Link](https://openclassrooms.com/en/courses/7805656-schedule-your-tasks-with-powershell-scripts-on-windows-server)
+[Course Link](https://openclassrooms.com/en/courses/7805656-schedule-your-tasks-with-powershell-scripts-on-windows-server){:target="_blank"}
 
 ## Windows Server
 
@@ -55,4 +55,4 @@ comments: true
 - Installing Windows Deployment Services and Windows Update Services roles
 - Understanding Virtualisation using Hyper-V
 
-[Course Link](https://openclassrooms.com/en/courses/7710301-manage-windows-server)
+[Course Link](https://openclassrooms.com/en/courses/7710301-manage-windows-server){:target="_blank"}
