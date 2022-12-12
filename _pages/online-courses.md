@@ -6,7 +6,12 @@ author_profile: true
 comments: true
 ---
 
-## Deploy your Systems and Networks to AWS
+<figure>
+  <img src="{{ '/assets/images/Course_Image.png' | relative_url }}" alt="Course image">
+</figure>
+
+
+## [Deploy your Systems and Networks to AWS](https://openclassrooms.com/en/courses/7418381-deploy-your-systems-and-networks-in-the-cloud-with-aws){:target="_blank"}
 
 **Course objectives:**
 
@@ -14,7 +19,6 @@ comments: true
 - Build and create a set of AWS resources - EC2, RDS, Load Balancer
 - Monitor your resources in AWS
 
-[Course Link](https://openclassrooms.com/en/courses/7418381-deploy-your-systems-and-networks-in-the-cloud-with-aws){:target="_blank"}
 
 ## Set Up TCP/IP Networks
 
