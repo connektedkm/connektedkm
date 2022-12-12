@@ -1,7 +1,9 @@
 ---
-title: "Home"
 permalink: /
+title: "About"
+excerpt: "A brief introduction"
 ---
+
 Welcome to my portfolio!
 
 After a successful career as an IT Manager, my recent work has taken on two forms. Both of which allow me to combine my technical knowledge with the breaking down of complex technical concepts and tools into a digestible format:
