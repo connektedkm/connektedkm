@@ -1,7 +1,6 @@
 ---
-layout: splash
+title: "Home"
 permalink: /
-hidden: true
 ---
 Welcome to my portfolio!
 
