@@ -2,37 +2,15 @@
 layout: splash
 permalink: /
 hidden: true
-header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
-  actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
-excerpt: >
-  A CHANGE ONE two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
-feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"      
 ---
+Welcome to my portfolio!
 
-{% include feature_row %}
+After a successful career as an IT Manager, my recent work has taken on two forms. Both of which allow me to combine my technical knowledge with the breaking down of complex technical concepts and tools into a digestible format:
+
+**Technical Writing** - Creating clear, concise procedural and conceptual documentation using Git, GitHub and Markdown.
+
+**Online Course Creation** - Understanding and implementing the concepts of pedagogy and instructional design to produce text and video content for IT engineers across the globe.
+
+Detailed examples of both can be found via the links above. 
+
+The nature of my work has always involved an understanding of a broad range of technologies and as such, the examples cover a non-exhaustive set of these topics including networking, cloud computing, scripting, databases and containers.
