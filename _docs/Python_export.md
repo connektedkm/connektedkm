@@ -12,9 +12,9 @@ This guide provides instructions on how to use Python to connect to a MySQL data
 
 ### **Prerequisites**
 
-Python 3 - the latest version of Python
+Python 3- the latest version of Python
 
-_pip_ - a package installer for Python
+_pip_- a package installer for Python
 
 Access to a MySQL database
 
@@ -40,7 +40,7 @@ pip is installed with the official version of Python. If you require a standalon
 Check which version of pip is installed by running the command:
 
 
-```bash
+```
 pip --version 
 ```
 
