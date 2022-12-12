@@ -10,17 +10,15 @@ comments: true
   <img src="{{ '/assets/images/Course_Image.png' | relative_url }}" alt="Course image">
 </figure>
 
-
 ## [Deploy your Systems and Networks to AWS](https://openclassrooms.com/en/courses/7418381-deploy-your-systems-and-networks-in-the-cloud-with-aws){:target="_blank"}
 
 **Course objectives:**
-
 - Understand cloud computing concepts
 - Build and create a set of AWS resources - EC2, RDS, Load Balancer
 - Monitor your resources in AWS
 
 
-## Set Up TCP/IP Networks
+## [Set Up TCP/IP Networks](https://openclassrooms.com/en/courses/7414131-set-up-tcp-ip-networks){:target="_blank"}
 
 **Course objectives:**
 
@@ -28,9 +26,7 @@ comments: true
 - Configure routing and a default gateway
 - Add DNS and DHCP to your network
 
-[Course Link](https://openclassrooms.com/en/courses/7414131-set-up-tcp-ip-networks){:target="_blank"}
-
-## Docker Containers
+## [Docker](https://openclassrooms.com/en/courses/7905646-optimize-your-deployment-with-docker-containers){:target="_blank"}
 
 **Course objectives:**
 
@@ -38,9 +34,7 @@ comments: true
 - Create, run, and share Docker images
 - Manage Docker images using Docker Compose
 
-[Course Link](https://openclassrooms.com/en/courses/7905646-optimize-your-deployment-with-docker-containers){:target="_blank"}
-
-## Powershell
+## [Powershell](https://openclassrooms.com/en/courses/7805656-schedule-your-tasks-with-powershell-scripts-on-windows-server){:target="_blank"}
 
 **Course objectives:**
 
@@ -48,9 +42,7 @@ comments: true
 - Manage your files using Powershell
 - Automate backups using Powershell
 
-[Course Link](https://openclassrooms.com/en/courses/7805656-schedule-your-tasks-with-powershell-scripts-on-windows-server){:target="_blank"}
-
-## Windows Server
+## [Windows Server](https://openclassrooms.com/en/courses/7710301-manage-windows-server){:target="_blank"}
 
 **Course objectives:**
 
@@ -58,5 +50,3 @@ comments: true
 - Installing Network Access, DNS, DHCP and File Server roles
 - Installing Windows Deployment Services and Windows Update Services roles
 - Understanding Virtualisation using Hyper-V
-
-[Course Link](https://openclassrooms.com/en/courses/7710301-manage-windows-server){:target="_blank"}
