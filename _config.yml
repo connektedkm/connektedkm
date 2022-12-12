@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Kevin Moran"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Kevin Moran"
-description              : "An amazing website."
+description              : "An online portfolio."
 url                      : "https://connektedkm.github.io/connektedkm/"
 baseurl                  : "/connektedkm"
 repository               : "connektedkm/connektedkm"
@@ -104,20 +104,20 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Kevin Moran"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  location         : "Lisbon"
+  email            : "kevin@connekted.io"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+       url: "mailto:kevin@connekted.io"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: "LinkedIn"
+      icon: "fab fa-fw linkedin"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
