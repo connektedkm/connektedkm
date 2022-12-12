@@ -1,6 +1,6 @@
 ---
 title:  "Online Courses"
-layout: collection
+#layout: collection
 permalink: /online-courses/
 #author_profile: true
 toc: true
