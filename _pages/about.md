@@ -2,7 +2,6 @@
 permalink: /about/
 title: "About"
 excerpt: "A brief introduction"
-toc: true
 ---
 
 Welcome to my portfolio!
