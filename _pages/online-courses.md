@@ -2,8 +2,8 @@
 title:  "Online Courses"
 layout: collection
 permalink: /online-courses/
-author_profile: true
-comments: true
+#author_profile: true
+toc: true
 ---
 
 <figure>
