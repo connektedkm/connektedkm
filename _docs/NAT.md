@@ -34,8 +34,6 @@ Port Address Translation is the most common application of NAT. The process is u
 
 The diagram below gives a visual representation of how NAT works, showing the flow of traffic in a common home network, consisting of two laptops and one smartphone behind a router. 
 
-The configuration is as follows:
-
 <figure>
   <img src="{{ '/assets/images/NAT_Diagram.png' | relative_url }}" alt="NAT diagram">
 </figure>
