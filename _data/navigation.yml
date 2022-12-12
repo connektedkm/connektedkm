@@ -1,7 +1,5 @@
 # main links
 main:
-   - title: "About"
-     url: /about/
    - title: "Technical Writing Examples"
      url: /technical-writing/
    - title: "Online Courses"
